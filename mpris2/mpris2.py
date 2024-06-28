@@ -7,7 +7,7 @@ cache = ""
 while True:
     out = sp.run([
         "/usr/bin/qdbus",
-        "org.mpris.MediaPlayer2.audacious",
+        "org.mpris.MediaPlayer2.ElectronNCM",
         "/org/mpris/MediaPlayer2",
         "org.mpris.MediaPlayer2.Player.Metadata"
         ],
